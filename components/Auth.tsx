@@ -61,9 +61,7 @@ export default function Auth() {
       />
       <TouchableOpacity
         onPress={() => Alert.alert("Funcionalidad no implementada")}
-      >
-        <Text style={styles.forgotPassword}>¿Olvidaste la contraseña?</Text>
-      </TouchableOpacity>
+      ></TouchableOpacity>
       <Button
         title="Ingresar"
         buttonStyle={styles.button}
